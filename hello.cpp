@@ -1,8 +1,15 @@
 #include <iostream>
+#include "hello.hpp"
 
-int hello(int var) {
-    std::cout << "Hello C++ Extensions for Ruby!" << std::endl;
-    std::cout << "Args is " << var << std::endl;
+Hello::Hello(int var) {
+    std::cout << "Create Hello Object!" << std::endl;
+    this->var = var;
+}
 
-    return var;
+Hello::~Hello() {
+    std::cout << "Delete Hello Object!" << std::endl;
+}
+
+void Hello::sayHello() {
+    std::cout << "Var is " << this->var << std::endl;
 }

@@ -1,2 +1,8 @@
+class Hello {
+    public:
+        Hello(int var);
+        ~Hello();
 
-int hello(int var);
+        void sayHello();
+        int var;
+};

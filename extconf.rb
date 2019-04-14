@@ -1,3 +1,3 @@
 require 'mkmf'
-$LDFLAGS += "-lstdc++"
+$LDFLAGS += " -lstdc++ -std=c++17"
 create_makefile("Hello")
