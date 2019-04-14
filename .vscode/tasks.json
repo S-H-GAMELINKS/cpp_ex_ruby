@@ -4,7 +4,7 @@
         {
             "label": "build",
             "type": "shell",
-            "command": ["g++ main.cpp -o main && ./main"]
+            "command": ["g++ main.cpp -std=c++17 -o main && ./main"]
         }
     ]
 }
