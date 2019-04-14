@@ -1,8 +1,5 @@
 #include <iostream>
 
-int main() {
-
-    std::cout << "Hello world!" << std::endl;
-
-    return 0;
+void hello() {
+    std::cout << "Hello C++ Extensions for Ruby!" << std::endl;
 }
