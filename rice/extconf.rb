@@ -1,2 +1,2 @@
 require 'mkmf-rice'
-create_make_file('test')
+create_makefile('test')

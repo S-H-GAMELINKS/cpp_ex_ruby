@@ -3,3 +3,5 @@ hello.o
 Hello.so
 hello_wrapper.o
 .sitearchdir.time
+rice/test.o
+rice/test.so
